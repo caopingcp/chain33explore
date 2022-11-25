@@ -1,9 +1,9 @@
 <template>
   <div class="home">
     <!-- 切换按钮 -->
-    <div class="content-wraper switch">
+    <!-- <div class="content-wraper switch">
       <style-switch/>
-    </div>
+    </div> -->
     <div class="content-wraper flex-around content-trade">
       <block-list :blockList="blockList" class="home-records"/>
       <tx-list :txList="txList"/>

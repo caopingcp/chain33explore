@@ -1,15 +1,15 @@
 <template>
   <div class="head">
     <div class="head-content min-center">
-      <img :src="logo">
+      <!-- <img :src="logo"> -->
       <ul id="selectUl">
         <li :class="{active: $route.path ==='/index'}" @click="indexState('index')">首页</li>
         <li
           :class="{active: $route.path ==='/block'||$route.path ==='/blockDetail'}"
           @click="indexState('block')"
         >区块</li>
-        <li :class="{active: $route.path ==='/token'}" @click="indexState('token')">Token</li>
-        <li :class="{active: $route.path ==='/pushtx'}" @click="indexState('pushtx')">广播交易</li>
+        <!-- <li :class="{active: $route.path ==='/token'}" @click="indexState('token')">Token</li>
+        <li :class="{active: $route.path ==='/pushtx'}" @click="indexState('pushtx')">广播交易</li> -->
       </ul>
       <div class="search-box">
         <search/>
